@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -17,41 +21,41 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4)
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.4)
 }
 
 .ancoras {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 62px;
+    gap: 6.2rem;
 }
 
 .ancoras a {
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Inter", sans-serif;
     color: #fff;
 }
 
 .logo img {
-    width: 72px;
+    width: 7.2rem;
     height: auto;
-    margin: 6px 0px 6px 45px;
+    margin: 0.6rem 0rem 0.6rem 4.5rem;
 }
 
 .AjustarOMeio {
     display: inline-block;
-    width: 72px;
-    margin: 6px 45px 6px 0px;
+    width: 7.2rem;
+    margin: 0.6rem 4.5rem 0.6rem 0rem;
 }
 
 .descricaoPagina {
-    margin: 57px 0px 0px 82px;
+    margin: 5.7rem 0rem 0rem 8.2rem;
 }
 
 .titulosElocal {
     color: #fff;
-    font-size: 96px;
+    font-size: 9.6rem;
     font-family: "Abril Fatface", serif;
     font-weight: 400;
 }
@@ -59,12 +63,12 @@ nav {
 .descricaoPagina p {
     color: #fff;
     font-family: "Inter", sans-serif;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 .titulosElocal span {
     color: #000;
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 
 .assuntos {
@@ -72,18 +76,18 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 62px;
-    margin-top: 86px;
+    gap: 6.2rem;
+    margin-top: 8.6rem;
     font-family: "Inter", sans-serif;
     color: #012169;
-    font-size: 40px;
+    font-size: 4rem;
 }
 
 .banners {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 182px;
+    gap: 18.2rem;
 }
 
 .cards a {
@@ -92,18 +96,18 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 1.6rem;
 }
 
 .cards img {
-    width: 222px;
-    height: 299px;
+    width: 22.2rem;
+    height: 29.9rem;
     border: 5px solid #fff;
-    border-radius: 20px;
+    border-radius: 2rem;
 }
 
 .cards p {
     color: #fff;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-family: "Inter", sans-serif;
 }
