@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(./imgs/fundo-inicial.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4)
+}
+
+.ancoras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 62px;
+}
+
+.ancoras a {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+.logo img {
+    width: 72px;
+    height: auto;
+    margin: 6px 0px 6px 45px;
+}
+
+.AjustarOMeio {
+    display: inline-block;
+    width: 72px;
+    margin: 6px 45px 6px 0px;
+}
+
+.descricaoPagina {
+    margin: 57px 0px 0px 82px;
+}
+
+.titulosElocal {
+    color: #fff;
+    font-size: 96px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+}
+
+.descricaoPagina p {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+}
+
+.titulosElocal span {
+    color: #000;
+    font-size: 24px;
+}
